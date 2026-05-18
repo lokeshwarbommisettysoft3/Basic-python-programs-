@@ -1,9 +1,8 @@
-a=int(input("Enter number:"))
-b=int(input("Enter number:"))
-c=int(input("Enter number:"))
-if a>b and a>c:
-	print("a is largest.")
-elif b>a and b>c:
-	print("b is largest")
-else:
-	print("c is largest")
+def check(x,y,z):
+	if(x>y and x>z):
+		print(f"{x} is largest")
+	elif(y>x and y>z):
+		print(f"{y} is largest")
+	else:
+		print(f"{z} is largest")
+check(55,9,31)
